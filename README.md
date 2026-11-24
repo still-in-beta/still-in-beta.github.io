@@ -27,7 +27,9 @@ I hope to be able to implement the parallel program as well as the above optimiz
 NCSA machines, and the C language. This is to make the SIMD optimization easier to work with, as well as being able to implement OpenMP since I am familiar with it. The NCSA machines have high thread counts, which can result in interesting conclusions.
 # SCHEDULE
 Week 1 (by Nov 15): Set up the basic structure of the code, such as relevant data structures and generate and document test cases. Code up the sequential baseline.
-Week 2 (by Nov 22): Code up the parallel version with the speculation with the tweakable thread parameters. Run some initial tests.
-Week 3 (by Nov 29): Finish up the parallel version, and get the convergence working.
+Week 2 (by Nov 22): Code up part of the parallel version, make easily inputtable test cases.
+By Nov. 27: Finish up debugging the parallel version and run some tests.
+Week 3 (by Nov 29): Get the convergence working, and implement more data structures than DFAs.
+By Dec. 2: Run many 
 Week 4 (by Dec 6): Get the 16-wide SIMD optimization working, and try to go wider from there.
 The remaining time will be used to catch up on missed deadlines or work on the poster, or do the stretch goal. 
